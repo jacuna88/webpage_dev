@@ -6,3 +6,22 @@ img {
     border: 2px solid black;
     float: right;
 }
+
+table, th, td {
+    text-align: center;
+    table-layout: fixed;
+    caption-side: top;
+    empty-cells: show;
+    border: 2px solid;
+    grid-template-columns:min-content;
+    border-collapse: collapse;
+}
+
+table {
+    width: 70%;
+}
+
+th {
+    height: 50px;
+    text-align: center;
+}
